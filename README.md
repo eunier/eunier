@@ -2,13 +2,11 @@
 
 ### Portfolio
 
-#### `cgit`
+#### [`cgit`](https://gitlab.com/yunieralvarez/cgit)
 
 ![cgit](./cgit.png)
 
 Wraps `git clone` for organizing project folders in a reverse domain-like structure. Built with Rust.
-
-[Source Code](https://gitlab.com/yunieralvarez/cgit)
 
 <!--
 spell-checker: disable

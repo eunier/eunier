@@ -4,11 +4,14 @@
 
 #### `cgit`
 
+![cgit](./cgit.png)
+
 Wraps `git clone` for organizing project folders in a reverse domain-like structure. Built with Rust.
 
 [Source Code](https://gitlab.com/yunieralvarez/cgit)
 
 <!--
+spell-checker: disable
 **eunier/eunier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -21,4 +24,5 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+spell-checker: enable
 -->

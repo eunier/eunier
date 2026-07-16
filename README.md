@@ -4,7 +4,7 @@
 
 ### nor (Nor Organize Repositories)
 
-[`nor`](https://gitlab.com/yunieralvarez/nor) is a unified package manager CLI for Fedora-based Linux systems. It gives me one command surface for the package managers and setup tools I use day to day.
+[`nor`](https://gitlab.com/yunieralvarez/nor) is a unified package manager CLI for Linux and MacOS. It gives me one command surface for the package managers and setup tools I use day to day.
 
 It manages:
 

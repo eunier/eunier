@@ -2,9 +2,9 @@
 
 ## Featured Project
 
-### pkgstack
+### nor (Nor Organize Repositories)
 
-[`pkgstack`](https://gitlab.com/yunieralvarez/pkgstack) is a unified package manager CLI for Fedora-based Linux systems. It gives me one command surface for the package managers and setup tools I use day to day.
+[`nor`](https://gitlab.com/yunieralvarez/nor) is a unified package manager CLI for Fedora-based Linux systems. It gives me one command surface for the package managers and setup tools I use day to day.
 
 It manages:
 
@@ -16,25 +16,17 @@ It manages:
 - Arch packages through an `archbox` Distrobox container
 - ZVM updates
 - YADM dotfile sync
-- Custom TypeScript-based extras recipes
 
 The main workflow is simple:
 
 ```sh
-pkgstack sync
-pkgstack search ripgrep
-pkgstack restore
+nor sync
+nor search ripgrep
+nor restore
 ```
-
-The project also includes an installer that places the CLI in `~/.pkgstack`, links it into `~/.local/bin`, and installs helper TypeScript types for custom extras recipes.
-
-```sh
-sh -c "$(curl -fsSL https://gitlab.com/yunieralvarez/pkgstack/-/raw/main/scripts/install.sh)"
-```
-
 ## Links
 
-- Featured CLI: [pkgstack](https://gitlab.com/yunieralvarez/pkgstack)
+- Featured CLI: [nor](https://gitlab.com/yunieralvarez/nor)
 
 <!--
 spell-checker: disable

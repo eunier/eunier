@@ -8,6 +8,7 @@
 
 It manages:
 
+- Pacman / AUR packages
 - DNF packages and package groups
 - Homebrew formulae, casks, and taps
 - Flatpak apps

@@ -1,22 +1,33 @@
-## Hi there 👋
+# Hi there 👋
 
 ## Featured Project
 
-### nor (Nor Organize Repositories)
+### NOR (Organise Repos)
 
-[`nor`](https://gitlab.com/yunieralvarez/nor) is a unified package manager CLI for Linux and MacOS. It gives me one command surface for the package managers and setup tools I use day to day.
+[`nor`](https://gitlab.com/yunieralvarez/nor) is a unified CLI for managing
+packages, systemd units, editor extensions, dotfiles, and reproducible
+workstation state. It gives me one command surface for the package managers and
+setup tools I use day to day.
 
-It manages:
+NOR provides its full set of integrations on Linux. It can also be used on
+macOS when Homebrew is enabled in the user configuration; Homebrew is currently
+the only compatible package manager on macOS.
+
+On Linux, it manages:
 
 - Pacman / AUR packages
 - DNF packages and package groups
 - Homebrew formulae, casks, and taps
+- Nix profile packages
 - Flatpak apps
-- pnpm global packages
+- npm and pnpm global packages
+- .NET global tools
 - VS Code and VSCodium extensions
 - Arch packages through an `archbox` Distrobox container
+- systemd services, sockets, and timers
 - ZVM updates
 - YADM dotfile sync
+- Custom TypeScript package recipes
 
 The main workflow is simple:
 
@@ -25,6 +36,10 @@ nor sync
 nor search ripgrep
 nor restore
 ```
+
+Package inventories are saved as portable state, making it easier to update,
+rebuild, or migrate a workstation.
+
 ## Links
 
 - Featured CLI: [nor](https://gitlab.com/yunieralvarez/nor)
